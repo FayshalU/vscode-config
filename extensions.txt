@@ -1,0 +1,16 @@
+be5invis.vscode-custom-css
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+felixfbecker.php-intellisense
+formulahendry.auto-rename-tag
+GregorBiswanger.json2ts
+loiane.ts-extension-pack
+ms-azuretools.vscode-docker
+ms-vscode.vscode-typescript-tslint-plugin
+msjsdiag.debugger-for-chrome
+pmneo.tsimporter
+rbbit.typescript-hero
+redhat.vscode-yaml
+stringham.move-ts
