@@ -1,7 +1,15 @@
 {
   "window.zoomLevel": 0,
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+      // For ESLint
+      "source.fixAll.eslint": true,
+      // For TSLint
+      "source.fixAll.tslint": true,
+      // For Stylelint
+      "source.fixAll.stylelint": true
+  },
   "diffEditor.codeLens": true,
   "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": true,
@@ -19,5 +27,12 @@
   "editor.renderWhitespace": "all",
   "vscode_custom_css.imports": ["file:////home/faysal/Documents/custom.css"],
   "vscode_custom_css.policy": true,
-  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"]
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript"
+  ],
+  "editor.formatOnSaveMode": "modifications",
+  "prettier.useTabs": true
 }
