@@ -25,14 +25,16 @@
   "editor.cursorWidth": 2,
   "window.titleSeparator": " -- ",
   "editor.renderWhitespace": "all",
-  "vscode_custom_css.imports": ["file:////home/faysal/Documents/custom.css"],
-  "vscode_custom_css.policy": true,
-  "auto-rename-tag.activationOnLanguage": [
-    "html",
-    "xml",
-    "php",
-    "javascript"
-  ],
   "editor.formatOnSaveMode": "modifications",
-  "prettier.useTabs": true
+  "prettier.useTabs": true,
+  "files.exclude": {
+    ".idea": true,
+    "android": false,
+    "ios": false
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": false
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Dracula"
 }
